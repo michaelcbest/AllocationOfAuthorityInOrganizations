@@ -1,0 +1,4 @@
+The sequence to run these codes would be -
+First, one needs to run the Trees_Function.R to store the function in the global environment.
+Second, one needs to choose the item for which the data has to be generated from ItemCodes.R and run that part of the code.
+Third Run BaggingCode.R

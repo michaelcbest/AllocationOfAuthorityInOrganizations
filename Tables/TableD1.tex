@@ -1,0 +1,248 @@
+\begin{longtable}{llccccccccc}
+\caption{POPS Data Cleaning} \\
+\label{tab:POPSCleaning} \\
+\toprule
+\multirow{3}{*}{\textbf{Item}} & \multirow{3}{*}{\textbf{Attributes}} & \multicolumn{3}{c}{\textbf{Raw Data}} & \multicolumn{3}{c}{\textbf{Regression Data}} & \multicolumn{3}{c}{\textbf{Machine Learning Data}} \\ 
+ & & \multicolumn{2}{c}{mean (s.d.) / } & \multirow{2}{*}{\# missing} & \multicolumn{2}{c}{mean (s.d.) / } & \multirow{2}{*}{\# missing} & \multicolumn{2}{c}{mean (s.d.) / } & \multirow{2}{*}{\# missing} \\ 
+ & & \multicolumn{2}{c}{\#categories} & & \multicolumn{2}{c}{\#categories} & & \multicolumn{2}{c}{\#categories} & \\ 
+ \midrule 
+ \endhead 
+ \multicolumn{11}{r}{\textit{Continued on next page}} \\ 
+ \endfoot 
+ \bottomrule 
+ \endlastfoot
+ \multirow{7}{*}{\textbf{Pencil}} & Brand & \multicolumn{2}{c}{21 categories} & 272 & \multicolumn{2}{c}{8 categories} & 187 & \multicolumn{2}{c}{19 categories} & 156 \\* 
+ & Grade & \multicolumn{2}{c}{26 categories} & 279 & \multicolumn{2}{c}{13 categories} & 175 & \multicolumn{2}{c}{25 categories} & 159 \\* 
+ & Type & \multicolumn{2}{c}{8 categories} & 156 & \multicolumn{2}{c}{5 categories} & 54 & \multicolumn{2}{c}{5 categories} & 46 \\* 
+ & With Rubber? & \multicolumn{2}{c}{2 categories} & 281 & \multicolumn{2}{c}{2 categories} & 177 & \multicolumn{2}{c}{2 categories} & 164 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{10.81 (14.91)} & \multicolumn{3}{l}{10.51 (14.42)} & \multicolumn{3}{l}{9.80 (11.31)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{311} & \multicolumn{3}{c}{275} & \multicolumn{3}{c}{253} \\* 
+ & \# Observations & \multicolumn{3}{c}{612} & \multicolumn{3}{c}{476} & \multicolumn{3}{c}{475} \\* 
+ \midrule 
+\multirow{3}{*}{\textbf{Ice Block}}
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{0.01 (0.02)} & \multicolumn{3}{l}{0.01 (0.01)} & \multicolumn{3}{l}{0.01 (0.01)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{321} & \multicolumn{3}{c}{304} & \multicolumn{3}{c}{304} \\* 
+ & \# Observations & \multicolumn{3}{c}{680} & \multicolumn{3}{c}{638} & \multicolumn{3}{c}{638} \\* 
+ \midrule 
+ \multirow{8}{*}{\textbf{Wiper}} & Brand & \multicolumn{2}{c}{13 categories} & 388 & \multicolumn{2}{c}{4 categories} & 173 & \multicolumn{2}{c}{12 categories} & 152 \\* 
+ & Country of Origin & \multicolumn{2}{c}{3 categories} & 331 & \multicolumn{2}{c}{2 categories} & 98 & \multicolumn{2}{c}{2 categories} & 98 \\* 
+ & Handle Length & \multicolumn{2}{c}{8 categories} & 381 & \multicolumn{2}{c}{5 categories} & 141 & \multicolumn{2}{c}{5 categories} & 141 \\* 
+ & Handle Material & \multicolumn{2}{c}{5 categories} & 304 & \multicolumn{2}{c}{4 categories} & 77 & \multicolumn{2}{c}{4 categories} & 77 \\* 
+ & Wiper Material & \multicolumn{2}{c}{7 categories} & 314 & \multicolumn{2}{c}{3 categories} & 88 & \multicolumn{2}{c}{3 categories} & 87 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{271.42 (125.82)} & \multicolumn{3}{l}{264.13 (115.92)} & \multicolumn{3}{l}{264.13 (115.92)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{401} & \multicolumn{3}{c}{296} & \multicolumn{3}{c}{296} \\* 
+ & \# Observations & \multicolumn{3}{c}{753} & \multicolumn{3}{c}{484} & \multicolumn{3}{c}{484} \\* 
+ \midrule 
+ \multirow{6}{*}{\textbf{Calculator}} & Brand \& Model & \multicolumn{2}{c}{7 categories} & 150 & \multicolumn{2}{c}{12 categories} & 49 & \multicolumn{2}{c}{22 categories} & 44 \\* 
+ \nopagebreak & Number of Digits & \multicolumn{2}{c}{6 categories} & 205 & \multicolumn{2}{c}{4 categories} &  & \multicolumn{2}{c}{4 categories} &  \\* 
+ \nopagebreak & Type & \multicolumn{2}{c}{5 categories} & 185 & \multicolumn{2}{c}{4 categories} & 76 & \multicolumn{2}{c}{4 categories} & 77 \\* 
+ \nopagebreak \cmidrule{2-11} 
+ \nopagebreak & Unit Price. mean (s.d.) & \multicolumn{3}{l}{271.42 (125.82)} & \multicolumn{3}{l}{796.24 (350.34)} & \multicolumn{3}{l}{795.93 (350.05)} \\* 
+ \nopagebreak & \# Purchasing PBs & \multicolumn{3}{c}{401} & \multicolumn{3}{c}{326} & \multicolumn{3}{c}{326} \\* 
+ \nopagebreak & \# Observations & \multicolumn{3}{c}{616} & \multicolumn{3}{c}{486} & \multicolumn{3}{c}{487} \\* 
+ \midrule 
+ \multirow{3}{*}{\textbf{Coal}}
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{0.08 (0.26)} & \multicolumn{3}{l}{0.06 (0.02)} & \multicolumn{3}{l}{0.06 (0.02)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{384} & \multicolumn{3}{c}{362} & \multicolumn{3}{c}{362} \\* 
+ & \# Observations & \multicolumn{3}{c}{685} & \multicolumn{3}{c}{650} & \multicolumn{3}{c}{650} \\* 
+ \midrule 
+ \multirow{5}{*}{\textbf{Staples}} & Brand & \multicolumn{2}{c}{19 categories} & 69 & \multicolumn{2}{c}{8 categories} & 59 & \multicolumn{2}{c}{19 categories} & 36 \\* 
+ & Size & \multicolumn{2}{c}{27 categories} & 60 & \multicolumn{2}{c}{6 categories} & 26 & \multicolumn{2}{c}{5 categories} & 26 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{0.14 (0.43)} & \multicolumn{3}{l}{0.11 (0.20)} & \multicolumn{3}{l}{0.11 (0.20)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{334} & \multicolumn{3}{c}{288} & \multicolumn{3}{c}{288} \\* 
+ & \# Observations & \multicolumn{3}{c}{551} & \multicolumn{3}{c}{465} & \multicolumn{3}{c}{465} \\* 
+ \midrule 
+ \multirow{10}{*}{\textbf{Lock}} & Brand \& Model & \multicolumn{2}{c}{18 categories} & 508 & \multicolumn{2}{c}{4 categories} & 270 & \multicolumn{2}{c}{9 categories} & 231 \\* 
+ & Country of Origin & \multicolumn{2}{c}{5 categories} & 384 & \multicolumn{2}{c}{2 categories} & 117 & \multicolumn{2}{c}{2 categories} & 119 \\* 
+ & Digital? & \multicolumn{2}{c}{2 categories} & 526 & \multicolumn{2}{c}{2 categories} & 245 & \multicolumn{2}{c}{2 categories} & 247 \\* 
+ & Fitting Charges? & \multicolumn{2}{c}{2 categories} & 514 & \multicolumn{2}{c}{2 categories} & 235 & \multicolumn{2}{c}{2 categories} & 237 \\* 
+ & Size & \multicolumn{2}{c}{27 categories} & 60 & \multicolumn{2}{c}{6 categories} & 26 & \multicolumn{2}{c}{5 categories} & 26 \\* 
+ & Material & \multicolumn{2}{c}{8 categories} & 512 & \multicolumn{2}{c}{4 categories} & 233 & \multicolumn{2}{c}{4 categories} & 235 \\* 
+ & Type & \multicolumn{2}{c}{20 categories} & 440 & \multicolumn{2}{c}{7 categories} & 166 & \multicolumn{2}{c}{13 categories} & 160 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{315.94 (340.11)} & \multicolumn{3}{l}{282.89 (235.49)} & \multicolumn{3}{l}{282.56 (235.21)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{404} & \multicolumn{3}{c}{318} & \multicolumn{3}{c}{319} \\* 
+ & \# Observations & \multicolumn{3}{c}{965} & \multicolumn{3}{c}{652} & \multicolumn{3}{c}{654} \\* 
+ \midrule 
+ \multirow{7}{*}{\textbf{Stamp Pad}} & Brand & \multicolumn{2}{c}{19 categories} & 262 & \multicolumn{2}{c}{10 categories} & 77 & \multicolumn{2}{c}{18 categories} & 64 \\* 
+ & Color & \multicolumn{2}{c}{8 categories} & 281 & \multicolumn{2}{c}{5 categories} & 86 & \multicolumn{2}{c}{6 categories} & 86 \\* 
+ & Size & \multicolumn{2}{c}{22 categories} & 317 & \multicolumn{2}{c}{8 categories} & 125 & \multicolumn{2}{c}{8 categories} & 125 \\* 
+ & With Ink? & \multicolumn{2}{c}{3 categories} & 266 & \multicolumn{2}{c}{2 categories} & 81 & \multicolumn{2}{c}{2 categories} & 81 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{85.92 (50.40)} & \multicolumn{3}{l}{82.72 (44.05)} & \multicolumn{3}{l}{82.98 (43.92)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{430} & \multicolumn{3}{c}{352} & \multicolumn{3}{c}{352} \\* 
+ & \# Observations & \multicolumn{3}{c}{771} & \multicolumn{3}{c}{545} & \multicolumn{3}{c}{543} \\* 
+ \midrule 
+ \multirow{7}{*}{\textbf{Duster}} & Material & \multicolumn{2}{c}{9 categories} & 261 & \multicolumn{2}{c}{6 categories} & 37 & \multicolumn{2}{c}{7 categories} & 37 \\* 
+ & Size & \multicolumn{2}{c}{52 categories} & 437 & \multicolumn{2}{c}{17 categories} & 195 & \multicolumn{2}{c}{18 categories} & 193 \\* 
+ & Type & \multicolumn{2}{c}{9 categories} & 343 & \multicolumn{2}{c}{4 categories} & 116 & \multicolumn{2}{c}{4 categories} & 116 \\* 
+ & With Handle? & \multicolumn{2}{c}{2 categories} & 435 & \multicolumn{2}{c}{2 categories} & 196 & \multicolumn{2}{c}{2 categories} & 196 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{66.31 (76.83)} & \multicolumn{3}{l}{65.13 (71.31)} & \multicolumn{3}{l}{65.13 (71.31)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{386} & \multicolumn{3}{c}{290} & \multicolumn{3}{c}{290} \\* 
+ & \# Observations & \multicolumn{3}{c}{722} & \multicolumn{3}{c}{456} & \multicolumn{3}{c}{456} \\* 
+ \midrule 
+ \multirow{9}{*}{\textbf{Floor Cleaner}} & Acid Cleaner & \multicolumn{2}{c}{7 categories} & 376 & \multicolumn{2}{c}{4 categories} & 242 & \multicolumn{2}{c}{4 categories} & 235 \\* 
+ & Brand & \multicolumn{2}{c}{38 categories} & 348 & \multicolumn{2}{c}{16 categories} & 258 & \multicolumn{2}{c}{30 categories} & 216 \\* 
+ & Environmentally Friendly & \multicolumn{2}{c}{2 categories} & 286 & \multicolumn{2}{c}{2 categories} & 168 & \multicolumn{2}{c}{2 categories} & 169 \\* 
+ & Make & \multicolumn{2}{c}{6 categories} & 307 & \multicolumn{2}{c}{4 categories} & 180 & \multicolumn{2}{c}{6 categories} & 177 \\ 
+ & Scented & \multicolumn{2}{c}{2 categories} & 230 & \multicolumn{2}{c}{2 categories} & 116 & \multicolumn{2}{c}{2 categories} & 117 \\* 
+ & State & \multicolumn{2}{c}{8 categories} & 225 & \multicolumn{2}{c}{3 categories} & 103 & \multicolumn{2}{c}{3 categories} & 104 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{0.27 (0.94)} & \multicolumn{3}{l}{0.19 (0.30)} & \multicolumn{3}{l}{0.19 (0.30)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{458} & \multicolumn{3}{c}{377} & \multicolumn{3}{c}{377} \\* 
+ & \# Observations & \multicolumn{3}{c}{1162} & \multicolumn{3}{c}{945} & \multicolumn{3}{c}{946} \\* 
+ \midrule 
+ \multirow{10}{*}{\textbf{File Cover}} & Brand & \multicolumn{2}{c}{20 categories} & 399 & \multicolumn{2}{c}{5 categories} & 306 & \multicolumn{2}{c}{18 categories} & 286 \\* 
+ & With Clip & \multicolumn{2}{c}{2 categories} & 662 & \multicolumn{2}{c}{2 categories} & 258 & \multicolumn{2}{c}{2 categories} & 259 \\* 
+ & Country of Origin & \multicolumn{2}{c}{6 categories} & 379 & \multicolumn{2}{c}{4 categories} & 265 & \multicolumn{2}{c}{3 categories} & 266 \\* 
+ & Cover Material & \multicolumn{2}{c}{22 categories} & 244 & \multicolumn{2}{c}{11 categories} & 150 & \multicolumn{2}{c}{13 categories} & 151 \\* 
+ & Customized Printing & \multicolumn{2}{c}{5 categories} & 328 & \multicolumn{2}{c}{4 categories} & 228 & \multicolumn{2}{c}{3 categories} & 229 \\* 
+ & File Type & \multicolumn{2}{c}{28 categories} & 138 & \multicolumn{2}{c}{14 categories} & 61 & \multicolumn{2}{c}{22 categories} & 58 \\* 
+ & Size & \multicolumn{2}{c}{27 categories} & 414 & \multicolumn{2}{c}{3 categories} & 290 & \multicolumn{2}{c}{3 categories} & 291 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{53.11 (95.41)} & \multicolumn{3}{l}{47.62 (75.07)} & \multicolumn{3}{l}{47.56 (75.02)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{391} & \multicolumn{3}{c}{312} & \multicolumn{3}{c}{313} \\* 
+ & \# Observations & \multicolumn{3}{c}{775} & \multicolumn{3}{c}{583} & \multicolumn{3}{c}{584} \\* 
+ \midrule 
+ \multirow{12}{*}{\textbf{Sign Board / Banner}} & Frame Type & \multicolumn{2}{c}{7 categories} & 667 & \multicolumn{2}{c}{3 categories} & 586 & \multicolumn{2}{c}{5 categories} & 586 \\* 
+ & Material & \multicolumn{2}{c}{11 categories} & 445 & \multicolumn{2}{c}{7 categories} & 391 & \multicolumn{2}{c}{10 categories} & 391 \\* 
+ & Number of Colors & \multicolumn{2}{c}{6 categories} & 723 & \multicolumn{2}{c}{2.8 (1.23)} & 643 & \multicolumn{2}{c}{2.8 (1.23)} & 643 \\* 
+ & Number of Rings & \multicolumn{2}{c}{12 categories} & 692 & \multicolumn{2}{c}{4.4 (4.05)} & 1055 & \multicolumn{2}{c}{4.4 (4.05)} & 1055 \\* 
+ & Print on Both Sides & \multicolumn{2}{c}{3 categories} & 625 & \multicolumn{2}{c}{2 categories} & 550 & \multicolumn{2}{c}{2 categories} & 551 \\* 
+ & Area & \multicolumn{2}{c}{85 categories} & 732 & \multicolumn{2}{c}{44.2 (355.64)} & 644 & \multicolumn{2}{c}{44.2 (355.64)} & 644 \\* 
+ & With Rope & \multicolumn{2}{c}{2 categories} & 598 & \multicolumn{2}{c}{2 categories} & 523 & \multicolumn{2}{c}{2 categories} & 523 \\* 
+ & With Stand & \multicolumn{2}{c}{2 categories} & 598 & \multicolumn{2}{c}{2 categories} & 519 & \multicolumn{2}{c}{2 categories} & 519 \\* 
+ & With Stick & \multicolumn{2}{c}{2 categories} & 590 & \multicolumn{2}{c}{2 categories} & 511 & \multicolumn{2}{c}{2 categories} & 511 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{1,262.06 (1,881.76)} & \multicolumn{3}{l}{1,170.37 (1,557.29)} & \multicolumn{3}{l}{1,170.37 (1,557.29)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{l}{442} & \multicolumn{3}{l}{402} & \multicolumn{3}{l}{402} \\* 
+ & \# Observations & \multicolumn{3}{l}{1391} & \multicolumn{3}{l}{1256} & \multicolumn{3}{l}{1256} \\* 
+ \midrule 
+ \multirow{5}{*}{\textbf{Stapler}} & Brand \& Model & \multicolumn{2}{c}{60 categories} & 584 & \multicolumn{2}{c}{15 categories} & 176 & \multicolumn{2}{c}{28 categories} & 149 \\* 
+ & Size & \multicolumn{2}{c}{9 categories} & 566 & \multicolumn{2}{c}{4 categories} & 123 & \multicolumn{2}{c}{4 categories} & 141 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{587.33 (816.28)} & \multicolumn{3}{l}{507.08 (621.07)} & \multicolumn{3}{l}{504.22 (614.41)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{539} & \multicolumn{3}{c}{364}  & \multicolumn{3}{c}{372} \\* 
+ & \# Observations & \multicolumn{3}{c}{1024} & \multicolumn{3}{c}{549} & \multicolumn{3}{c}{567} \\* 
+ \midrule 
+ \multirow{9}{*}{\textbf{Photocopying}} & Color & \multicolumn{2}{c}{2 categories} & 1119 & \multicolumn{2}{c}{2 categories} & 307 & \multicolumn{2}{c}{2 categories} & 307 \\* 
+ & Double-sided & \multicolumn{2}{c}{3 categories} & 1248 & \multicolumn{2}{c}{3 categories} & 395 & \multicolumn{2}{c}{3 categories} & 395 \\* 
+ & On Generator Power & \multicolumn{2}{c}{3 categories} & 1175 & \multicolumn{2}{c}{3 categories} & 370 & \multicolumn{2}{c}{3 categories} & 370 \\* 
+ & Paper Quality & \multicolumn{2}{c}{9 categories} & 1693 & \multicolumn{2}{c}{3 categories} & 831 & \multicolumn{2}{c}{7 categories} & 831 \\* 
+ & Size & \multicolumn{2}{c}{19 categories} & 1043 & \multicolumn{2}{c}{3 categories} & 221 & \multicolumn{2}{c}{12 categories} & 215 \\* 
+ & With Binding & \multicolumn{2}{c}{4 categories} & 1585 & \multicolumn{2}{c}{3 categories} & 725 & \multicolumn{2}{c}{3 categories} & 725 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{3.33 (7.65)} & \multicolumn{3}{l}{2.69 (2.76)} & \multicolumn{3}{l}{2.69 (2.76)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{470} & \multicolumn{3}{c}{401} & \multicolumn{3}{c}{401} \\* 
+ & \# Observations & \multicolumn{3}{c}{3185} & \multicolumn{3}{c}{2249} & \multicolumn{3}{c}{2249} \\* 
+ \midrule 
+ \multirow{5}{*}{\textbf{Toner}} & Brand \& Model & \multicolumn{2}{c}{180 categories} & 1280 & \multicolumn{2}{c}{57 categories} & 581 & \multicolumn{2}{c}{31 categories} & 581 \\* 
+ & Refill or New & \multicolumn{2}{c}{7 categories} & 935 & \multicolumn{2}{c}{5 categories} & 241 & \multicolumn{2}{c}{5 categories} & 241 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{4,630.16 (4,257.79)} & \multicolumn{3}{l}{4,449.26 (3,873.94)} & \multicolumn{3}{l}{4,449.26 (3,873.94)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{505} & \multicolumn{3}{c}{449} & \multicolumn{3}{c}{449} \\* 
+ & \# Observations & \multicolumn{3}{c}{3814} & \multicolumn{3}{c}{2980} & \multicolumn{3}{c}{2980} \\* 
+ \midrule 
+ \multirow{7}{*}{\textbf{Envelope}} & Material & \multicolumn{2}{c}{12 categories} & 789 & \multicolumn{2}{c}{7 categories} & 417 & \multicolumn{2}{c}{10 categories} & 417 \\* 
+ & Printed & \multicolumn{2}{c}{5 categories} & 983 & \multicolumn{2}{c}{4 categories} & 583 & \multicolumn{2}{c}{4 categories} & 583 \\* 
+ & Area & \multicolumn{2}{c}{5 categories} & 983 & \multicolumn{2}{c}{4 categories} & 583 & \multicolumn{2}{c}{4 categories} & 583 \\* 
+ & With Zip & \multicolumn{2}{c}{2 categories} & 1112 & \multicolumn{2}{c}{2 categories} & 726 & \multicolumn{2}{c}{2 categories} & 727 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{9.31 (32.16)} & \multicolumn{3}{l}{6.40 (14.18)} & \multicolumn{3}{l}{6.38 (14.16)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{512} & \multicolumn{3}{c}{427} & \multicolumn{3}{c}{427} \\* 
+ & \# Observations & \multicolumn{3}{c}{1891} & \multicolumn{3}{c}{1433} & \multicolumn{3}{c}{1438} \\* 
+ \midrule 
+ \multirow{10}{*}{\textbf{Soap}} & Antiseptic & \multicolumn{2}{c}{2 categories} & 690 & \multicolumn{2}{c}{2 categories} & 418 & \multicolumn{2}{c}{2 categories} & 420 \\* 
+ & Brand & \multicolumn{2}{c}{36 categories} & 436 & \multicolumn{2}{c}{20 categories} & 209 & \multicolumn{2}{c}{30 categories} & 192 \\* 
+ & State & \multicolumn{2}{c}{3 categories} & 419 & \multicolumn{2}{c}{3 categories} & 181 & \multicolumn{2}{c}{3 categories} & 183 \\* 
+ & Type & \multicolumn{2}{c}{19 categories} & 544 & \multicolumn{2}{c}{9 categories} & 314 & \multicolumn{2}{c}{11 categories} & 318 \\* 
+ & Bar Size & \multicolumn{2}{c}{67 categories} & 0 & \multicolumn{2}{c}{198.1 (137.86)} & 0 & \multicolumn{2}{c}{198.0 (137.75)} & 0 \\* 
+ & Bottle Size & \multicolumn{2}{c}{67 categories} & 0 & \multicolumn{2}{c}{0.9 (0.71)} & 0 & \multicolumn{2}{c}{0.9 (0.71)} & 0 \\* 
+ & Packet Size & \multicolumn{2}{c}{67 categories} & 0 & \multicolumn{2}{c}{1072.1 (2461.58)} & 0 & \multicolumn{2}{c}{1072.0 (2459.27)} & 0 \\* 
+ \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{3.73 (17.96)} & \multicolumn{3}{l}{2.17 (11.14)} & \multicolumn{3}{l}{2.17 (11.12)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{518} & \multicolumn{3}{c}{446} & \multicolumn{3}{c}{447} \\* 
+ & \# Observations & \multicolumn{3}{c}{1476} & \multicolumn{3}{c}{1155} & \multicolumn{3}{c}{1158} \\* 
+ \midrule 
+ \multirow{8}{*}{\textbf{Light Bulb}} & Brand & \multicolumn{2}{c}{53 categories} & 959 & \multicolumn{2}{c}{12 categories} & 434 & \multicolumn{2}{c}{31 categories} & 386 \\* 
+ & Type & \multicolumn{2}{c}{28 categories} & 772 & \multicolumn{2}{c}{9 categories} & 224 & \multicolumn{2}{c}{22 categories} & 209 \\* 
+ & Wattage & \multicolumn{2}{c}{47 categories} & 814 & \multicolumn{2}{c}{12 categories} & 232 & \multicolumn{2}{c}{35.4 (65.15)} & 252 \\* 
+ & With Fitting & \multicolumn{2}{c}{3 categories} & 1505 & \multicolumn{2}{c}{2 categories} & 862 & \multicolumn{2}{c}{2 categories} & 882 \\* 
+ \nopagebreak & With Fixture & \multicolumn{2}{c}{3 categories} & 1463 & \multicolumn{2}{c}{2 categories} & 818 & \multicolumn{2}{c}{2 categories} & 838 \\* 
+ \nopagebreak \cmidrule{2-11} 
+ \nopagebreak & Unit Price. mean (s.d.) & \multicolumn{3}{l}{697.49 (1,142.68)} & \multicolumn{3}{l}{541.53 (747.52)} & \multicolumn{3}{l}{563.52 (782.47)} \\* 
+ \nopagebreak & \# Purchasing PBs & \multicolumn{3}{c}{530} & \multicolumn{3}{c}{446} & \multicolumn{3}{c}{446} \\* 
+ \nopagebreak & \# Observations & \multicolumn{3}{c}{1818} & \multicolumn{3}{c}{1173} & \multicolumn{3}{c}{1193} \\* 
+ \midrule 
+ \multirow{7}{*}{\textbf{Broom}} & Brand & \multicolumn{2}{c}{8 categories} & 846 & \multicolumn{2}{c}{4 categories} & 380 & \multicolumn{2}{c}{8 categories} & 369 \\* 
+ & Handle Length & \multicolumn{2}{c}{10 categories} & 815 & \multicolumn{2}{c}{3.1 (1.57)} & 878 & \multicolumn{2}{c}{3.1 (1.57)} & 878 \\* 
+ & Handle Material & \multicolumn{2}{c}{4 categories} & 838 & \multicolumn{2}{c}{4 categories} & 351 & \multicolumn{2}{c}{4 categories} & 351 \\* 
+ & Type & \multicolumn{2}{c}{23 categories} & 588 & \multicolumn{2}{c}{10 categories} & 139 & \multicolumn{2}{c}{15 categories} & 121 \\* 
+ \nopagebreak \cmidrule{2-11} 
+ \nopagebreak & Unit Price. mean (s.d.) & \multicolumn{3}{l}{79.90 (108.92)} & \multicolumn{3}{l}{76.36 (102.71)} & \multicolumn{3}{l}{76.36 (102.71)} \\* 
+ \nopagebreak & \# Purchasing PBs & \multicolumn{3}{c}{586} & \multicolumn{3}{c}{455} & \multicolumn{3}{c}{455} \\* 
+ \nopagebreak & \# Observations & \multicolumn{3}{c}{1702} & \multicolumn{3}{c}{1159} & \multicolumn{3}{c}{1159} \\* 
+ \midrule 
+ \multirow{6}{*}{\textbf{Newspaper}} & Name & \multicolumn{2}{c}{57 categories} & 2129 & \multicolumn{2}{c}{23 categories} & 0 & \multicolumn{2}{c}{29 categories} & 0 \\* 
+ \nopagebreak \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{14.74 (6.09)} & \multicolumn{3}{l}{14.29 (3.72)} & \multicolumn{3}{l}{14.29 (3.72)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{l}{717} & \multicolumn{3}{l}{617} & \multicolumn{3}{l}{618} \\* 
+ \nopagebreak & Unit Price. mean (s.d.) & \multicolumn{3}{l}{14.74 (6.09)} & \multicolumn{3}{l}{14.29 (3.72)} & \multicolumn{3}{l}{14.29 (3.72)} \\* 
+ \nopagebreak & \# Purchasing PBs & \multicolumn{3}{c}{717} & \multicolumn{3}{c}{617} & \multicolumn{3}{c}{618} \\* 
+ \nopagebreak & \# Observations & \multicolumn{3}{c}{9400} & \multicolumn{3}{c}{6647} & \multicolumn{3}{c}{6683} \\* 
+ \midrule 
+ \multirow{11}{*}{\textbf{Register}} & Binding & \multicolumn{2}{c}{15 categories} & 2917 & \multicolumn{2}{c}{13 categories} & 1633 & \multicolumn{2}{c}{10 categories} & 1635 \\* 
+ & Brand & \multicolumn{2}{c}{54 categories} & 3209 & \multicolumn{2}{c}{19 categories} & 1979 & \multicolumn{2}{c}{49 categories} & 1920 \\* 
+ & Colored Pages & \multicolumn{2}{c}{6 categories} & 2933 & \multicolumn{2}{c}{2 categories} & 1675 & \multicolumn{2}{c}{2 categories} & 1677 \\* 
+ & Customized Printing & \multicolumn{2}{c}{3 categories} & 3011 & \multicolumn{2}{c}{2 categories} & 1732 & \multicolumn{2}{c}{2 categories} & 1734 \\* 
+ & Number of Pages & \multicolumn{2}{c}{80 categories} & 2939 & \multicolumn{2}{c}{185.1 (169.65)} & 1641 & \multicolumn{2}{c}{185.1 (169.65)} & 1643 \\* 
+ & Page Size & \multicolumn{2}{c}{82 categories} & 2874 & \multicolumn{2}{c}{26 categories} & 1552 & \multicolumn{2}{c}{51 categories} & 1554 \\* 
+ & Page Weight & \multicolumn{2}{c}{14 categories} & 4456 & \multicolumn{2}{c}{12 categories} & 2602 & \multicolumn{2}{c}{14 categories} & 2604 \\* 
+ & Type & \multicolumn{2}{c}{114 categories} & 1776 & \multicolumn{2}{c}{28 categories} & 523 & \multicolumn{2}{c}{44 categories} & 525 \\* 
+ \nopagebreak \cmidrule{2-11} 
+ \nopagebreak & Unit Price. mean (s.d.) & \multicolumn{3}{l}{14.74 (6.09)} & \multicolumn{3}{l}{314.93 (239.41)} & \multicolumn{3}{l}{314.84 (239.38)} \\* 
+ \nopagebreak & \# Purchasing PBs & \multicolumn{3}{c}{717} & \multicolumn{3}{c}{717} & \multicolumn{3}{c}{718} \\* 
+ \nopagebreak & \# Observations & \multicolumn{3}{c}{5176} & \multicolumn{3}{c}{3705} & \multicolumn{3}{c}{3707} \\* 
+ \midrule 
+ \multirow{7}{*}{\textbf{Printer Paper}} & Brand & \multicolumn{2}{c}{33 categories} & 1127 & \multicolumn{2}{c}{14 categories} & 693 & \multicolumn{2}{c}{31 categories} & 638 \\* 
+ & Colored Pages & \multicolumn{2}{c}{3 categories} & 1014 & \multicolumn{2}{c}{2 categories} & 531 & \multicolumn{2}{c}{2 categories} & 532 \\* 
+ & Page Size & \multicolumn{2}{c}{21 categories} & 1123 & \multicolumn{2}{c}{7 categories} & 547 & \multicolumn{2}{c}{15 categories} & 547 \\* 
+ & Page Weight & \multicolumn{2}{c}{25 categories} & 898 & \multicolumn{2}{c}{13 categories} & 360 & \multicolumn{2}{c}{77.54 (5.99)} & 361 \\* 
+ \nopagebreak \cmidrule{2-11} \nopagebreak
+ \nopagebreak & Unit Price. mean (s.d.) & \multicolumn{3}{l}{1.30 (1.49)} & \multicolumn{3}{l}{1.19 (0.28)} & \multicolumn{3}{l}{1.19 (0.28)} \\* 
+ \nopagebreak & \# Purchasing PBs & \multicolumn{3}{c}{837} & \multicolumn{3}{c}{746} & \multicolumn{3}{c}{746} \\* 
+ \nopagebreak & \# Observations & \multicolumn{3}{c}{4570} & \multicolumn{3}{c}{3842} & \multicolumn{3}{c}{3843} \\* 
+ \midrule 
+ \multirow{7}{*}{\textbf{Pen}} & Color & \multicolumn{2}{c}{15 categories} & 1579 & \multicolumn{2}{c}{11 categories} & 911 & \multicolumn{2}{c}{8 categories} & 912 \\* 
+ & Model & \multicolumn{2}{c}{59 categories} & 1560 & \multicolumn{2}{c}{29 categories} & 916 & \multicolumn{2}{c}{30 categories} & 887 \\* 
+ & Type & \multicolumn{2}{c}{15 categories} & 978 & \multicolumn{2}{c}{8 categories} & 349 & \multicolumn{2}{c}{9 categories} & 350 \\* 
+ & Thickness & \multicolumn{2}{c}{23 categories} & 2188 & \multicolumn{2}{c}{1.1 (1.04)} & 1443 & \multicolumn{2}{c}{1.1 (1.04)} & 1444 \\* 
+ \nopagebreak \cmidrule{2-11} 
+ & Unit Price. mean (s.d.) & \multicolumn{3}{l}{49.10 (126.38)} & \multicolumn{3}{l}{40.26 (58.98)} & \multicolumn{3}{l}{40.27 (58.98)} \\* 
+ & \# Purchasing PBs & \multicolumn{3}{c}{814} & \multicolumn{3}{c}{719} & \multicolumn{3}{c}{719} \\* 
+ \nopagebreak & \# Observations & \multicolumn{3}{c}{4298} & \multicolumn{3}{c}{3386} & \multicolumn{3}{c}{3387} \\* 
+ \midrule 
+ \multirow{6}{*}{\textbf{Towel}} & Size & \multicolumn{2}{c}{24 categories} & 517 & \multicolumn{2}{c}{1137.6 (446.45)} & 334 & \multicolumn{2}{c}{1137.6 (446.45)} & 334 \\* 
+ & Towel Material & \multicolumn{2}{c}{3 categories} & 283 & \multicolumn{2}{c}{2 categories} & 109 & \multicolumn{2}{c}{2 categories} & 109 \\* 
+ & Type & \multicolumn{2}{c}{7 categories} & 198 & \multicolumn{2}{c}{4 categories} & 32 & \multicolumn{2}{c}{4 categories} & 32 \\* 
+ \nopagebreak \cmidrule{2-11} 
+ \nopagebreak & Unit Price. mean (s.d.) & \multicolumn{3}{l}{458.19 (225.20)} & \multicolumn{3}{l}{469.73 (206.82)} & \multicolumn{3}{l}{469.73 (206.82)} \\* 
+ \nopagebreak & \# Purchasing PBs & \multicolumn{3}{c}{362} & \multicolumn{3}{c}{273} & \multicolumn{3}{c}{273} \\* 
+ \nopagebreak & \# Observations & \multicolumn{3}{c}{617} & \multicolumn{3}{c}{427} & \multicolumn{3}{c}{427} \\* 
+ \midrule 
+ \multirow{8}{*}{\textbf{Pipe}} & Diameter & \multicolumn{2}{c}{60 categories} & 365 & \multicolumn{2}{c}{2.0 (3.59)} & 207 & \multicolumn{2}{c}{1.9 (3.58)} & 207 \\* 
+ & Manufacturer & \multicolumn{2}{c}{32 categories} & 414 & \multicolumn{2}{c}{10 categories} & 273 & \multicolumn{2}{c}{22 categories} & 243 \\* 
+ & Material & \multicolumn{2}{c}{3 categories} & 283 & \multicolumn{2}{c}{5 categories} & 94 & \multicolumn{2}{c}{13 categories} & 81 \\* 
+ & Size & \multicolumn{2}{c}{62 categories} & 441 & \multicolumn{2}{c}{15 categories} & 316 & \multicolumn{2}{c}{607.5 (1068.00)} & 316 \\* 
+ & Type & \multicolumn{2}{c}{41 categories} & 326 & \multicolumn{2}{c}{39 categories} & 162 & \multicolumn{2}{c}{30 categories} & 162 \\* 
+ \nopagebreak \cmidrule{2-11} 
+ \nopagebreak & Unit Price. mean (s.d.) & \multicolumn{3}{l}{2.30 (8.63)} & \multicolumn{3}{l}{1.87 (6.26)} & \multicolumn{3}{l}{1.87 (6.26)} \\* 
+ \nopagebreak & \# Purchasing PBs & \multicolumn{3}{c}{372} & \multicolumn{3}{c}{319} & \multicolumn{3}{c}{319} \\* 
+ \nopagebreak & \# Observations & \multicolumn{3}{c}{807} & \multicolumn{3}{c}{609} & \multicolumn{3}{c}{610} \\* 
+ \midrule 
+\textbf{TOTAL} & \# Observations & \multicolumn{3}{c}{49,461} & \multicolumn{3}{c}{36,950} & \multicolumn{3}{c}{37,039} \\* 
+ \end{longtable}
